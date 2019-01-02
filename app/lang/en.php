@@ -1,0 +1,52 @@
+<?php
+    return [
+		'something-went-wrong' => 'Something Went Wrong! Try again later.',
+        
+        'csrf-invalid' => 'CSRF token invalid! Refresh the page!',
+        'csrf-expired' => 'CSRF EXPIRED!',
+        'csrf-rejected' => 'CSRF REJECTED!',
+        'csrf-forgotten' => 'Developer: You have forgotten to include the CSRFInput() in your form!',
+        
+        'auth-register-title' => 'Create an account',
+        'auth-register-success' => 'You have registered successfully! Please verify your email!',
+        'auth-register-label1' => 'First Name',
+        'auth-register-label2' => 'Last Name',
+        'auth-register-label3' => 'Username',
+        'auth-register-label4' => 'Email',
+        'auth-register-label5' => 'Password',
+        'auth-register-label6' => 'Confirm Password',
+        'auth-register-label7' => 'Country',
+        'auth-register-label8' => 'Select Country',
+        'auth-register-info1' => 'Your password must contain at least 8 characters, 1 lowercase character, 1 uppercase character & 1 number!',
+        'auth-register-info2' => 'Make sure you select the correct country as this will be verified!',
+        'auth-register-invalid1' => 'First Name is required!',
+        'auth-register-invalid2' => 'First Name must be 2 characters or more!',
+        'auth-register-invalid3' => 'Last Name is required!',
+        'auth-register-invalid4' => 'Last Name must be 2 characters or more!',
+        'auth-register-invalid5' => 'Username is required!',
+        'auth-register-invalid6' => 'Username must contain only letters, numbers & underscores!',
+        'auth-register-invalid7' => 'Username already in use!',
+        'auth-register-invalid8' => 'Email is required!',
+        'auth-register-invalid9' => 'Email invalid!',
+        'auth-register-invalid10' => 'Email already in use!',
+        'auth-register-invalid11' => 'Password is required!',
+        'auth-register-invalid12' => 'Password must be 8 characters or more, contain at least 1 lowercase character, 1 uppercase character & 1 numerical character!',
+        'auth-register-invalid13' => 'Confirm Password is required!',
+        'auth-register-invalid14' => 'Password & Confirm Password do not match!',
+        'auth-register-invalid15' => 'Country is required!',
+        'auth-register-invalid16' => 'Country does not exist!',
+        'auth-register-invalid17' => 'Country does not match your location!',
+        'auth-register-invalid18' => 'Recaptcha is required!',
+        
+        'auth-login-title' => 'Sign into your account',
+        'auth-login-success' => 'You have signed in successfully!',
+        'auth-login-label1' => 'Username',
+        'auth-login-label2' => 'Password',
+        'auth-login-invalid1' => 'Username is required!',
+        'auth-login-invalid2' => 'Invalid Username!',
+        'auth-login-invalid3' => 'Password is required!',
+        'auth-login-invalid4' => 'Invalid Password!',
+        
+        // auth complete (login, register, settings, reset, verify) + permissions (add, edit)
+    ];
+?>
