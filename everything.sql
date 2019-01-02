@@ -349,7 +349,7 @@ CREATE TABLE `everything_settings` (
 --
 
 INSERT INTO `everything_settings` (`id`, `global_company`, `global_logo`, `global_recaptchaon`, `global_recaptchasite`, `global_recaptchasecret`) VALUES
-(1, 'Brand', NULL, 1, '6LdzHnIUAAAAACWHYT1bd3nNpIHUBAiJ6X6XahVy', '6LdzHnIUAAAAAGLldjjVoGYi9vRQDxvmz6r5zIMF');
+(1, 'Brand', NULL, 1, 'enter recaptcha site code', 'enter recaptcha secret code');
 
 -- --------------------------------------------------------
 
