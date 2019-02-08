@@ -1,6 +1,14 @@
 <?php if (!defined('BASE_PATH')) { exit('No direct script access allowed'); }
 
 /* 
+What i added:
+-session_hash field md5 that gets optional user agent and/or ip to cross check against user.
+-some php.ini variables
+
+Potential further additions for this class:
+-get_lock / release_lock .... apparently handy, unsure
+-add flash messages functionality like codeigniter
+
     Database Sessions
 
     Requirements:
